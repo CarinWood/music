@@ -1,0 +1,32 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-btn {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.play-btn:active {
+    transform: translateY(2px);
+}
+
+
+.forward, .back {
+    font-size: 35px;
+    color: white;
+    margin: 0px 26px;
+    cursor: pointer;
+}
+
+.back {
+    transform:rotate(180deg)
+}
+
+.forward:active, .back:active {
+    opacity: 0.6;
+}
+
